@@ -13,6 +13,6 @@ public class NonPlayableCharacter extends AbstractCharacter{
     }
 
     public AbstractResource drop(){
-        return new NaturalResouce("Sestertius", "Roman coin" , "Money" , 0);
+        return new NaturalResouce(new TextureRegion(), "Sestertius", "Roman coin" , "Money" , 0);
     }
 }
